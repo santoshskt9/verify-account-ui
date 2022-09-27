@@ -1,0 +1,94 @@
+
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 5px solid black;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 25px;
+}
+
+#heading {
+    margin-bottom: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p {
+    margin: 0;
+}
+
+.otp-box {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+input {
+    border-style: none;
+}
+
+.otp {
+    height: 108px;
+    width: 78px;
+    border: 2px solid #f6f6f6;
+    border-radius: 8px;
+    font-size: 76px;
+    font-weight: 400;
+    margin: 23px 5px;
+    text-align: center;
+    transition: 30ms;
+}
+
+.otp:focus {
+    border: 4px solid #57c0ff;
+    outline: none;
+}
+
+.otp:valid {
+    border: 2px solid #57c0ff;
+    box-shadow: 0px 5px 7px 0px #808080ab;
+    outline: none;
+}
+
+.otp::placeholder {
+    color: #e1e1e1;
+}
+
+.msg-box {
+    padding: 6px;
+    background: #e1e1e1;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.msg {
+    margin: 8px;
+    width: 330px;
+    font-size: small;
+    text-align: center;
+    color: #8a8a8a;
+}
